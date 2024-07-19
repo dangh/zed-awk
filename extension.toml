@@ -1,0 +1,11 @@
+id = "zed-awk"
+name = "AWK"
+version = "0.0.1"
+schema_version = 1
+authors = ["Dang Huynh"]
+description = "AWK syntax for Zed"
+repository = "https://github.com/dangh/zed-awk"
+
+[grammars.awk]
+repository = "https://github.com/Beaglefoot/tree-sitter-awk"
+commit = "ba7472152d79a8c916550c80fdbfd5724d07a0c9"
